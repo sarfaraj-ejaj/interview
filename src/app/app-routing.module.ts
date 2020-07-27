@@ -8,8 +8,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'folder/:id',
+    path: 'home/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'mandatory-location',
+    loadChildren: () => import('./mandatory-location/mandatory-location.module').then( m => m.MandatoryLocationPageModule)
   }
 ];
 

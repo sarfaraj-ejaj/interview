@@ -1,0 +1,20 @@
+ion-content{
+
+    .location_btm_btns{
+        position: absolute;
+        bottom: 14px;
+        .location_test{
+            text-align: center;
+            padding: 55px 0px 55px 0px;
+        }
+        ion-button{
+            height: 50px;
+            button{
+                background: #3a57c4;
+            }
+        }
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+}
